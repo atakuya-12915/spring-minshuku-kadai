@@ -14,10 +14,10 @@ import com.example.samuraitravel.entity.User;
 import com.example.samuraitravel.repository.UserRepository;
 
 @Service
-public class UserDetailsSecurityImpl implements UserDetailsService {
+public class UserDetailsServiceImpl implements UserDetailsService {
 	private final UserRepository userRepository;
 	
-	public UserDetailsSecurityImpl(UserRepository userRepository) {
+	public UserDetailsServiceImpl(UserRepository userRepository) {
 		this.userRepository = userRepository;
 	}
 	
